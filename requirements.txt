@@ -1,6 +1,0 @@
-tensorflow
-keras
-numpy
-streamlit
-pillow
-protobuf==3.10
