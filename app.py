@@ -18,7 +18,7 @@ if nav == 'Potato_Classifer':
                 3. **Healthy**''',True)
     @st.cache(allow_output_mutation=True)
     def load_model():
-        model = keras.models.load_model('/Users/shouryachalla/Desktop/potato_classifier/best_model')
+        model = keras.models.load_model('Shourya306/DL_Plant_Village/best_model')
         return model
     with st.spinner('Model is being loaded....'):
         model = load_model()
@@ -54,7 +54,7 @@ else:
     ''',True)
     @st.cache(allow_output_mutation=True)
     def load_model():
-        pep_model = keras.models.load_model('/Users/shouryachalla/Desktop/potato_classifier/best_pepper_model')
+        pep_model = keras.models.load_model('Shourya306/DL_Plant_Village/best_pepper_model')
         return pep_model
     with st.spinner('The model is being loaded.....'):
         model = load_model()
